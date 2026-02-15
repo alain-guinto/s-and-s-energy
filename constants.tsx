@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Project, SavingsTier, FeatureDetail } from './types';
 
 export const RESIDENTIAL_SAVINGS: SavingsTier[] = [
@@ -33,7 +32,7 @@ export const PROJECTS: Project[] = [
     location: "Malabon, Metro Manila",
     capacity: "6.25 kW On-Grid System",
     description: "Full rooftop array for a modern urban residence.",
-    imageUrl: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&q=80&w=800", // Logically assets/project-1.jpg
     category: 'Residential',
     detailedInfo: ["16 x 390W Mono-PERC Panels", "Enphase IQ7+ Microinverters", "Completed in 3 days", "Real-time mobile monitoring"]
   },
@@ -43,7 +42,7 @@ export const PROJECTS: Project[] = [
     location: "Mandaluyong City",
     capacity: "4.375 kW On-Grid System",
     description: "Compact microinverter-based system for city living.",
-    imageUrl: "https://images.unsplash.com/photo-1509391366360-fe5bb584850a?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "https://images.unsplash.com/photo-1509391366360-fe5bb584850a?auto=format&fit=crop&q=80&w=800", // Logically assets/project-2.jpg
     category: 'Residential',
     detailedInfo: ["11 x 400W High-Efficiency Panels", "Atmoce M-ELV Inverters", "Zero-export configuration", "Integrated with smart home hub"]
   },
@@ -53,7 +52,7 @@ export const PROJECTS: Project[] = [
     location: "Los Banos, Laguna",
     capacity: "8 kW On-Grid System",
     description: "High-yield system optimized for local climate conditions.",
-    imageUrl: "https://images.unsplash.com/photo-1466611653911-954ffaa137d8?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "https://images.unsplash.com/photo-1466611653911-954ffaa137d8?auto=format&fit=crop&q=80&w=800", // Logically assets/project-3.jpg
     category: 'Commercial',
     detailedInfo: ["20 x 400W Panels", "Reinforced structural mounting", "Typhoon-ready design", "Net Metering certified"]
   },
@@ -63,7 +62,7 @@ export const PROJECTS: Project[] = [
     location: "Santiago, Isabela",
     capacity: "13 kW On-Grid System",
     description: "Large scale installation for energy-intensive operations.",
-    imageUrl: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=800", // Logically assets/project-4.jpg
     category: 'Commercial',
     detailedInfo: ["32 x 410W High-Capacity Panels", "Commercial-grade racking", "Annual savings: ₱150,000+", "Zero maintenance plan included"]
   }
@@ -101,5 +100,5 @@ You are the S&S Solar Smart Advisor. Use the following company facts:
 - Savings: 3kW (~3.5k/mo), 5kW (~7k/mo), 10kW (~14k/mo).
 - Contact: 09155769185 or 09778293838.
 - Nationwide service in Philippines.
-Keep responses professional and informative.
+Keep responses professional, concise, and informative. Use markdown for better readability.
 `;
