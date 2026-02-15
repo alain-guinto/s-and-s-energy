@@ -1,0 +1,8 @@
+{
+  "name": "S&S Solar - Smart Energy Solutions",
+  "description": "A professional web application for S&S Solar providing residential and commercial solar installations across the Philippines, featuring savings calculators and AI-powered solar consultation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
