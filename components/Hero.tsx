@@ -1,5 +1,6 @@
 
 import React from 'react';
+import backgroundVideo from '../assets/background.mov';
 
 const Hero: React.FC = () => {
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -32,7 +33,7 @@ const Hero: React.FC = () => {
           poster="https://images.unsplash.com/photo-1509391366360-fe5bb584850a?auto=format&fit=crop&q=80&w=1920"
           className="absolute inset-0 w-full h-full object-cover opacity-50 ken-burns"
         >
-          <source src="https://player.vimeo.com/external/461873722.hd.mp4?s=f4961858a72c1c68f9b9f91a5472855160c8835f&profile_id=175" type="video/mp4" />
+          <source src={backgroundVideo} type="video/mp4" />
         </video>
 
         {/* Overlay Layers */}
